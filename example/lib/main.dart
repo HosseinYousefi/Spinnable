@@ -13,6 +13,15 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Spinnable(
+              snapAngles: [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+              ],
               radius: 200,
               child: Stack(
                 children: [
