@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:spinnable/spinnable.dart';
 
@@ -15,12 +17,9 @@ class MyApp extends StatelessWidget {
             Spinnable(
               snapAngles: [
                 0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
+                math.pi / 2,
+                math.pi,
+                3 * math.pi / 2,
               ],
               radius: 200,
               child: Stack(
